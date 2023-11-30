@@ -18,7 +18,7 @@ server.webUIUpdateCheckInterval = ${WEB_UI_UPDATE_INTERVAL} # time in hours - 0 
 
 # downloader
 server.downloadAsCbz = ${DOWNLOAD_AS_CBZ}
-server.downloadsPath = ""
+server.downloadsPath = ${DOWNLOAD_PATH}
 server.autoDownloadNewChapters = ${AUTO_DOWNLOAD_CHAPTERS} # if new chapters that have been retrieved should get automatically downloaded
 server.excludeEntryWithUnreadChapters = ${AUTO_DOWNLOAD_EXCLUDE_UNREAD} # ignore automatic chapter downloads of entries with unread chapters
 server.autoDownloadAheadLimit = ${AUTO_DOWNLOAD_AHEAD_LIMIT} # 0 to disable it - how many unread downloaded chapters should be available - if the limit is reached, new chapters won't be downloaded automatically
