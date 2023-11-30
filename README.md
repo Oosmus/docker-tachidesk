@@ -32,6 +32,7 @@ There are a number of environment variables available to configure Suwayomi:
 | **SOCKS_PROXY_HOST** | `""` | The TCP host of the SOCKS5 proxy |
 | **SOCKS_PROXY_PORT** | `""` | The port of the SOCKS5 proxy |
 | **DOWNLOAD_AS_CBZ** | `false` | Whether Suwayomi should save the manga to disk in CBZ format |
+| **DOWNLOAD_PATH** | '""' | Where is manga downloaded |
 | **MAX_PARALLEL_UPDATE** | `10` | How many sources can be updated at the same time? |
 | **BASIC_AUTH_ENABLED** | `false` | Whether Suwayomi requires HTTP Basic Auth to get in. |
 | **BASIC_AUTH_USERNAME** | `""` | The username to log in to Suwayomi. |
