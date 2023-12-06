@@ -15,9 +15,9 @@ on:
         type: boolean
     secrets:
       DISCORD_TACHIDESK_WEBHOOK_ID:
-        required: true
+        required: false
       DISCORD_TACHIDESK_TOKEN:
-        required: true
+        required: false
 
 env:
   server_repo: ${{ inputs.tachidesk_release_type == 'stable' && 'Tachidesk-Server' || 'Tachidesk-Server-preview' }}
